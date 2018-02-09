@@ -16,7 +16,7 @@ function translateCommand(text, from, to) {
   }
 
   translate(text, options)
-    .then(res => console.log(chalk.yellow('From ' + from + ' to ' + to + '\n' + res.text)))
+    .then(res => console.log(chalk.yellow('From ' + translate.languages[res.from.language.iso] + ' to ' + translate.languages[to] + '\n' + res.text)))
     .catch(err => console.error(err));
 }
 
