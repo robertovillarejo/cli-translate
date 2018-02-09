@@ -1,0 +1,20 @@
+{
+  "name": "cli-translate",
+  "version": "1.0.0",
+  "description": "A cli client for Google Translate",
+  "main": "index.js",
+  "bin": {
+    "translate": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translate"
+  ],
+  "author": "Roberto Villarejo Martínez",
+  "license": "MIT",
+  "dependencies": {
+    "google-translate-api": "^2.3.0"
+  }
+}
